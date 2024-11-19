@@ -1,0 +1,18 @@
+2024-11-18T16:21:36.840-05:00 ERROR 17108 --- [ExamenParcial] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field alumnoService in com.example.ExamenParcial.controller.AlumnoController required a bean of type 'com.example.ExamenParcial.services.AlumnoService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.ExamenParcial.services.AlumnoService' in your configuration.
+
